@@ -2,6 +2,7 @@
 
 namespace Tbd\Main\Tests\Products;
 
+use Tbd\Main\FeatureFlags\FeatureFlag;
 use Tbd\Main\Products\Product;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
@@ -11,8 +12,12 @@ use Tbd\Main\Products\ProductsListController;
 
 class ProductListControllerTest extends TestCase
 {
-    public function testControllerReturnsValidResponse()
+    public function testControllerReturnsValidResponseWithDetailsDisabled()
     {
+        if(FeatureFlag::isEnabled('show_product_details_on_list')){
+            $this->markTestSkipped("Flag show_product_details_on_list is enabled");
+        }
+
         $request = new ServerRequest('GET', 'http://example.com/products/');
 
         $product1 = new Product(1, 'test', 'description', 100);

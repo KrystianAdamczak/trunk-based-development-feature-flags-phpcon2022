@@ -1,4 +1,4 @@
 <?php
 return array(
-    'show_product_details_on_list' => true
+//    'show_product_details_on_list' => true
 );

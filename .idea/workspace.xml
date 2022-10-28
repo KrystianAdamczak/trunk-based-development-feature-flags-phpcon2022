@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6f2411-86db-485a-b986-fa0bd2bfc51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/src/Products/ProductLookupStandardDataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7d83b2bd53a2792c6d50b315dbc67bbe852e547" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/Products/ProductLookupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/Products/ProductLookupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests/Products/ProductLookupControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/Products/ProductLookupControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests/_output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/_output/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline.sh" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/Flags.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/Flags.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +113,14 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/tests/Products" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/tests/Products" />
+    </key>
   </component>
   <component name="TaskManager">
     <servers />

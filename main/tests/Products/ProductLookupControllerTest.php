@@ -2,6 +2,7 @@
 
 namespace Tbd\Main\Tests\Products;
 
+use Tbd\Main\FeatureFlags\FeatureFlag;
 use Tbd\Main\Products\Product;
 use Tbd\Main\Products\ProductLookupController;
 use PHPUnit\Framework\TestCase;
@@ -13,6 +14,9 @@ class ProductLookupControllerTest extends TestCase
 {
     public function testControllerReturnsValidResponseWithRecommendationsDisabled()
     {
+        if(FeatureFlag::isEnabled('show_recommendations_on_product_lookup')){
+            $this->markTestSkipped("Flag show_recommendations_on_product_lookup is enabled");
+        }
         $request = new ServerRequest('GET', 'http://example.com/products/3');
         $request = $request->withAttribute("id", "3");
 

@@ -1,0 +1,36 @@
+name: Trunk Based development - Continuous Integration
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [push]
+jobs:
+  Run-CI:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo " The workflow is now ready to test your code on the runner."
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+        with:
+          php_version: '8.1'
+          args: '-d main'
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: debug-output
+          path: output.log
+
+      - name: PHPUnit tests
+        uses: php-actions/phpunit@v3
+        with:
+          bootstrap: main/tests/bootstrap.php
+          args: '-v --testdox-html=main/tests/_output/report.html main/tests'
+      - uses: actions/upload-artifact@v2
+        with:
+          name: test-report
+          path: main/tests/_output/report.html
+
+      - run: echo "This job's status is ${{ job.status }}."

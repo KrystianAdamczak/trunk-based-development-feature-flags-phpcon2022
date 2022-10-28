@@ -11,7 +11,7 @@ use Tbd\Main\Products\ProductRepositoryInterface;
 
 class ProductLookupControllerTest extends TestCase
 {
-    public function testControllerReturnsValidResponse()
+    public function testControllerReturnsValidResponseWithRecommendationsDisabled()
     {
         $request = new ServerRequest('GET', 'http://example.com/products/3');
         $request = $request->withAttribute("id", "3");

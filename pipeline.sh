@@ -8,6 +8,13 @@ then
     exit $ret
 fi
 
+FEATURE_FLAG_SHOW_PRODUCT_DETAILS_ON_LIST=1 composer run tests
+ret=$?
+if [ $ret != 0 ]
+then
+    exit $ret
+fi
+
 composer run tests
 ret=$?
 if [ $ret != 0 ]

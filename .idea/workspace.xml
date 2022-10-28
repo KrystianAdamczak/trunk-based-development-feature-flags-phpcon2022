@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26509109-b75d-495b-9575-8b07aa017b4e" name="Changes" comment="">
+    <list default="true" id="3b6f2411-86db-485a-b986-fa0bd2bfc51c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/tests/Products/ProductLookupControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/Products/ProductLookupControllerTest.php" afterDir="false" />
     </list>
@@ -11,7 +11,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <pharConfigPath>$PROJECT_DIR$/main/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -42,8 +41,8 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pipeline.sh" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -101,34 +100,9 @@
       <path value="$PROJECT_DIR$/main/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2Gll9qVfJEoLcxdmOgOqmf0Hgj9" />
-  <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="26509109-b75d-495b-9575-8b07aa017b4e" name="Changes" comment="" />
-      <created>1666970903517</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1666970903517</updated>
-      <workItem from="1666970905856" duration="475000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
